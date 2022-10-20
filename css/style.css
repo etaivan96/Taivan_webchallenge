@@ -513,3 +513,34 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+
+.footer-content{
+    padding: 80px 320px;
+    max-width: 1280px;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-content ul li{
+margin-top: 16px;
+}
+
+.footer-content h3{
+    margin-bottom: 24px;
+}
+
+input{
+    padding: 18px 32px;
+    border: none;
+    border-radius: 50px;
+    max-width: 350px;
+    margin-bottom: 33px;
+    padding-right: 188px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
