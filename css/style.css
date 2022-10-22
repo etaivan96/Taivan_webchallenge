@@ -140,9 +140,7 @@ color: #5B5B5B;
     font-size: 16px;
     line-height: 106.5%;
     /* identical to box height, or 17px */
-    
     text-transform: capitalize;
-    
     color: #1D3444;
 }
 
@@ -489,7 +487,7 @@ color: #0D1317;
 
 .ribbon-main{
     float: left;
-    transform: translate(320%, -20%);
+    transform: translate(320%, -28%);
 }
 
 .strategy-context{

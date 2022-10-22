@@ -1,3 +1,8 @@
+
+p{
+    font-size: 18px;
+}
+
 .description a{
     display: block;
     max-width: 22%;
@@ -17,7 +22,8 @@
 
 .position{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
     max-width: 1280px;
     gap: 40px;
 
@@ -27,5 +33,38 @@
     background: rgba(193, 228, 255, 0.3);
     border-radius: 20px;
     display: flexbox;
-    padding: 20px;
+    padding: 40px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+
+.pos-box h4{
+    font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+margin-bottom: 8px;
+letter-spacing: -0.03em;
+color: #0D1317;
+}
+
+
+.pos-box p{
+    font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+color: #394149;
+opacity: 0.6;
+margin-bottom: 32px;
+}
+
+
+.pos-box a{
+    font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+/* or 19px */
+text-decoration: none;
+color: #F58A07;
 }

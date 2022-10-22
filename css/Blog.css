@@ -1,0 +1,42 @@
+header{
+gap: 100px;
+padding: 128px 0;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    
+}
+
+.header-right {
+    max-width: 850px;
+    display: flex;
+}
+
+.header-left h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    
+    letter-spacing: -0.03em;
+    
+    color: #1D3444;
+    
+}
+
+.header-right img {
+    border-radius: 20px;
+}
+
+.user-information{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 410px;
+    margin-bottom: 24px;
+}
+.post-date{
+    margin-left: 16px;
+} 
