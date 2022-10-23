@@ -3,6 +3,10 @@ p{
     font-size: 18px;
 }
 
+.main-container{
+    margin-top: 108px;
+}
+
 .description a{
     display: block;
     max-width: 22%;
