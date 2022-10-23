@@ -62,3 +62,7 @@ padding: 128px 0;
     flex-direction: row-reverse;
     margin-bottom: 128px;
 }
+
+.services{
+    background:  #EDF7FF;
+}
