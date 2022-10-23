@@ -6,37 +6,59 @@ padding: 128px 0;
     display: flex;
     flex-direction: column;
     max-width: 560px;
-    
 }
 
 .header-right {
     max-width: 850px;
     display: flex;
 }
+.header-left h5{
+    margin: 24px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    
+}
+
 
 .header-left h1{
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
-    /* or 112% */
-    
     letter-spacing: -0.03em;
-    
     color: #1D3444;
-    
 }
 
 .header-right img {
     border-radius: 20px;
 }
+.header-left a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    text-decoration: none;
+}
 
 .user-information{
     display: flex;
-    align-items: center;
     gap: 8px;
-    max-width: 410px;
+    max-width: 700px;
+    max-height: 32px;
     margin-bottom: 24px;
 }
 .post-date{
     margin-left: 16px;
 } 
+
+.services-container{
+    margin: auto;
+    flex-direction: column;
+}
+
+.reverse {
+    margin: auto;
+    flex-direction: row-reverse;
+    margin-bottom: 128px;
+}

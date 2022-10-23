@@ -22,9 +22,16 @@
 cursor: pointer;
 }
 
+.flex{
+    display: flex;
+}
+
+.max-width {
+    max-width: 1280px;
+}
+
 
 nav{
-    max-width: 1280px;
     display: flex;
     height: 84px;
     justify-content: space-between;
@@ -79,7 +86,6 @@ header{
 }
 
 .slide{
-    max-width: 1280px;
     display: flex;
     max-height: 65vh;
     flex-direction: flex-start;
@@ -165,7 +171,6 @@ color: rgba(57, 65, 73, 0.5);
 
 
 .section-1 {
-    max-width: 1280px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -174,7 +179,8 @@ color: rgba(57, 65, 73, 0.5);
 }
 
 .services-introduction {
-    margin: 47px 0;
+    margin: 47px;
+    justify-content: baseline;
     width: 50%;
     font-weight: 300;
     font-size: 18px;
@@ -254,7 +260,6 @@ color: rgba(57, 65, 73, 0.5);
     display: flex;
     justify-content: center;
     align-self: center;
-    max-width: 1280px;
     margin: auto;
 }
 
@@ -344,7 +349,6 @@ color: #1D3444;
 }
 
 .sesction-3{
-    max-width: 1280px;
     margin: auto;
     
 }
@@ -438,7 +442,6 @@ border-bottom-left-radius: 20px;
     padding: 48px;
     border-radius: 20px;
     max-height: 57vh;
-    max-width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -601,7 +604,6 @@ color: #F58A07;
     justify-content: space-between;
     align-items: baseline;
     margin: 128px auto;
-    max-width: 1280px;
 }
 
 .section-5-left{
@@ -735,17 +737,12 @@ margin-right: 17px;
     padding: 96px 0px;
 }
 
-.services-container{
-max-width: 1280px;
-}
-
 footer{
     background: #063255;
     color: #fff;
 }
 
 .footer-content{
-    max-width: 1280px;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -770,7 +767,6 @@ footer{
     padding-top: 80px;
     padding-left: 320px;
     padding-right: 320px;
-    max-width: 1280px;
     display: flex;
     align-items: baseline;
 }
@@ -787,6 +783,7 @@ list-style: none;
 input{
     padding: 18px 32px;
     border: none;
+    outline: none;
     border-radius: 50px;
     max-width: 350px;
     margin-bottom: 33px;
@@ -822,7 +819,6 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 1280px;
     padding: 80px 0px;
 
 }
@@ -838,7 +834,7 @@ display: flex;
 }
 
 .footer-decoration-left{
-    position: absolute;
+position: absolute;
     background: #F58A07;
     border-top-right-radius: 20px;
     width: 53px;
