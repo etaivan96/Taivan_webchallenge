@@ -609,7 +609,7 @@ color: #F58A07;
     height: 100%;
     display: flexbox;
     flex: 1;
-    background: url("/images/experience-image.png") no-repeat center;
+    background: url("./images/experience-image.png") no-repeat center;
     background-size: cover;
     max-height: 520px;
 }
