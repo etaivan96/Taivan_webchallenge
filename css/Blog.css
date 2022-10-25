@@ -55,6 +55,14 @@ padding: 128px 0;
 .services-container{
     margin: auto;
     flex-direction: column;
+    
+}
+.services-introduction{
+    margin-top: 128px;
+}
+
+.services-introduction h1{
+transform: translate(-7%, 10px);
 }
 
 .reverse {

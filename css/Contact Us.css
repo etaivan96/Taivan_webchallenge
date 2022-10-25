@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
 
 h1{
@@ -64,23 +64,27 @@ main{
 
 .question{
     flex-direction: column;
+    transform: translateX(6%);
 }
 
 .questioner-information{
     flex-direction: column;
-    max-width: 620px;
 }
-.questioner-information input{
+.questioner-information input[type=text]{
     margin-bottom: 16px;
-    width: 620px;
-    max-width: 430px;
-}
-.questioner-information input:last-child{
-height: 160px;
+    width: 50em;
+    box-sizing: border-box;
 }
 
+
+input[type=text]{
+    position: relative;
+}
+
+
 iframe{
-    max-width: 620px;
+    width: 38em;
+    transform: translateX(-3%);
     border-radius: 20px;
 }
 
@@ -94,4 +98,11 @@ iframe{
 
 .question .main-button{
     max-width: 120px;
+}
+textarea{
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background: rgba(210, 218, 237, 0.17);
+    max-width: 620px;
 }

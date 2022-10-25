@@ -191,10 +191,10 @@ color: rgba(57, 65, 73, 0.5);
 
 .services-introduction p{
     transform: translateX(-8%);
-}
+    margin-top: 27px;
 
+}
 .services-introduction h1{
-    margin-bottom: 27px;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -800,16 +800,14 @@ list-style: none;
     margin-bottom: 24px;
 }
 
-input{
+input, textarea{
     padding: 18px 32px;
     border: none;
     outline: 0px;
     border-radius: 50px;
-    max-width: 350px;
     margin-bottom: 33px;
     padding-right: 188px;
 }
-
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -862,10 +860,10 @@ position: absolute;
     transform: translate(0%, 247%);
 }
 .footer-decoration-right{
+    float: right;
     width: 53px;
     height: 250px;
     float: right;
-    
     background: #F58A07;
     transform: translateY(50%);
     border-top-left-radius: 20px;

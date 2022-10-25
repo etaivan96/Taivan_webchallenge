@@ -82,3 +82,25 @@ color: #5B5B5B;
 .section-5{
     gap: 110px;
 }
+
+.image-decoration{
+    max-height: 650px;
+}
+
+.square-image-decoration{
+    width: 95px;
+    height: 97px;
+    background: #F58A07;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+}
+
+.image-decoration-left{
+    transform: translate(-50%, 250%);
+}
+
+.image-decoration-right{
+    float: right;
+    transform: translate(50%, 350%);
+
+}
